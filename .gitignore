@@ -15,8 +15,12 @@
 /log/*.log
 /tmp
 
-#amelioration by coco following the guide
+# Ignore other unneeded files.
+database.yml
 doc/
 *.swp
 *~
+.project
 .DS_Store
+.idea
+.secret
